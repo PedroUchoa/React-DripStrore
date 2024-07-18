@@ -1,0 +1,99 @@
+footer {
+  width: 100%;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 104px ;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  font-family: "Inter";
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 26px;
+}
+
+.logo-wrapper .logo {
+  height: 44px;
+  width: 253px;
+}
+
+.logo-wrapper p {
+  width: 307px;
+}
+
+.logo-wrapper ul {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+}
+
+.info-wrapper,
+.category-wrapper,
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.info-wrapper ul,
+.category-wrapper ul,
+.contact-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style: none;
+  font-size: 16px;
+}
+
+.info-wrapper h2,
+.category-wrapper h2,
+.contact-wrapper h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info-wrapper ul li,
+.category-wrapper ul li,
+.contact-wrapper ul li {
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.contact-wrapper ul li {
+  width: 231px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.trademark{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 30%);
+}

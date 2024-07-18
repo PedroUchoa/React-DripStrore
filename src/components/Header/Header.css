@@ -42,6 +42,7 @@ header{
     background-color: transparent;
     color: var(--dark-gray-3);
     outline: none;
+    border: none;
 }
 
 .search-bar img{
@@ -71,6 +72,7 @@ header{
     line-height: 22px;
     border-radius: 8px;
     cursor: pointer;
+    border: none;
 }
 
 .cart{
