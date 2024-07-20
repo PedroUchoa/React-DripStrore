@@ -1,12 +1,15 @@
+.home-wrapper {
+  font-family: "inter";
+  background-color: #F9F8FE;
+}
 .carousel {
   width: 100%;
   height: 700px;
   padding: 50px 80px 0 100px;
   background-color: var(--light-gray-3);
-  font-family: "inter";
 }
 
-.itens{
+.itens {
   min-width: 100%;
   height: 100%;
   display: flex;
@@ -14,17 +17,107 @@
   overflow: hidden;
 }
 
-
 div.swiper-pagination {
   margin-bottom: 50px;
 }
 
-.swiper-pagination-bullet{
-  width: 12px !important; 
-  height: 12px !important; 
-   background-color: var(--light-gray-2) !important;
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: var(--light-gray-2) !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: var(--primary) !important;
+}
+
+.collection-wrappper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f8fe;
+  margin-top: 8px;
+}
+.card-wrapper {
+  width: 100%;
+  padding: 38px 100px 50px 100px;
+}
+
+.card-wrapper h2 {
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.75;
+  color: var(--dark-gray-2);
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.highlights-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.highlights-wrapper h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.itens-wrapper{
+  width: 712px;
+  height: 138px;
+  margin-bottom: 138px;
+  background-color: transparent;
+
+}
+
+.itens-wrapper ul{
+  display: flex;
+  gap: 48px;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itens-wrapper ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.itens-wrapper ul li div{
+  width: 104px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 150px;
+  background-color: var(--white);
+}
+
+.itens-wrapper ul li p{
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
 }

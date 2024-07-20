@@ -63,6 +63,7 @@
   position: relative;
   width: 100%;
   margin-top: 80px;
+  right: -50px;
   transform: rotate(-19.34deg);
   z-index: 2;
 }

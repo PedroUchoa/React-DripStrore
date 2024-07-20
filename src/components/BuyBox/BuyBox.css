@@ -1,0 +1,42 @@
+
+.card {
+    height: 251px;
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 105px;
+  padding: 10px 0px 0px 30px;
+  background-size: cover;
+
+}
+
+.card span {
+  text-align: center;
+  height: 32px;
+  width: 96px;
+  background-color: var(--off);
+  border-radius: 29px;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.card button {
+  width: 153px;
+  height: 48px;
+   font-family: "inter";
+  background-color: var(--light-gray-3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px ;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: var(--primary);
+}
