@@ -9,6 +9,9 @@ import shirt from "../../assets/icons/shirt.svg";
 import shoes from "../../assets/icons/shoes.svg";
 import headphone from "../../assets/icons/headphone.svg";
 import pants from "../../assets/icons/pants.svg";
+import { Cards } from "../../interfaces/cards";
+import ProductListing from "../../components/ProductListing/ProductListing";
+import  arrow  from '../../assets/icons/arrow-right.svg'
 
 function Home() {
   const slideItems = [
@@ -39,6 +42,81 @@ function Home() {
     },
     {
       image: "/src/assets/imgs/collection-3.png",
+    },
+  ];
+
+  const itensCards: Cards[] = [
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
     },
   ];
 
@@ -81,36 +159,46 @@ function Home() {
           <ul>
             <li>
               <div>
-                <img src={shirt} alt="" />
+                <img src={shirt} alt="Icone de Camisa" />
               </div>
               <p>Camisetas</p>
             </li>
             <li>
               <div>
-                <img src={pants} alt="" />
+                <img src={pants} alt="Icone de Calça" />
               </div>
               <p>Calças</p>
             </li>
             <li>
               <div>
-                <img src={pants} alt="" />
+                <img src={pants} alt="Icone de Calça" />
               </div>
               <p>Bonés</p>
             </li>
             <li>
               <div>
-                <img src={headphone} alt="" />
+                <img src={headphone} alt="Icone de fone" />
               </div>
               <p>Headphones</p>
             </li>
             <li>
               <div>
-                <img src={shoes} alt="" />
+                <img src={shoes} alt="Icone de Sapato" />
               </div>
               <p>Tênis</p>
             </li>
           </ul>
         </div>
+      </div>
+      <div className="product-wrapper">
+        <div className="trending">
+          <h4>Produtos em Alta</h4>
+          <span>
+            <a href="">Ver todos</a>
+            <img src={arrow} alt="" />
+          </span> 
+        </div>
+        <ProductListing cards={itensCards} />
       </div>
     </div>
   );
