@@ -1,17 +1,24 @@
 import React from "react";
 
-import "./Home.css";
-import SlideItem from "../../components/SlideItem/SlideItem";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
+
+import "./Home.css";
+import SlideItem from "../../components/SlideItem/SlideItem";
 import BuyBox from "../../components/BuyBox/BuyBox";
 import shirt from "../../assets/icons/shirt.svg";
 import shoes from "../../assets/icons/shoes.svg";
 import headphone from "../../assets/icons/headphone.svg";
 import pants from "../../assets/icons/pants.svg";
-import { Cards } from "../../interfaces/cards";
 import ProductListing from "../../components/ProductListing/ProductListing";
-import  arrow  from '../../assets/icons/arrow-right.svg'
+import arrow from "../../assets/icons/arrow-right.svg";
+import yellowShoe from "../../assets/imgs/nike-yellow.png"
+
+import { Cards } from "../../interfaces/cards";
+
+
+
 
 function Home() {
   const slideItems = [
@@ -196,9 +203,25 @@ function Home() {
           <span>
             <a href="">Ver todos</a>
             <img src={arrow} alt="" />
-          </span> 
+          </span>
         </div>
         <ProductListing cards={itensCards} />
+      </div>
+      <div className="promotion-wrapper">
+        <div className="shoes-wrapper">
+          <img src={yellowShoe} alt="" />
+        </div>
+        <div className="special-wrapper">
+          <span>Oferta especial</span>
+          <h4>Air Jordan edição de colecionador</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          </p>
+          <button>Ver Oferta</button>
+        </div>
       </div>
     </div>
   );
