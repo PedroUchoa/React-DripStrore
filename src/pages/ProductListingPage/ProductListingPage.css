@@ -1,0 +1,131 @@
+.listing-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 100px;
+  font-family: "inter";
+  background-color: #f9f8fe;
+}
+
+.order-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-wrapper .results-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.order-wrapper .results-wrapper label {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.order-wrapper .results-wrapper span {
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.order-wrapper .order-by {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60px;
+  width: 332px;
+  padding: 16px 15px;
+  border: 1px solid var(--dark-gray-2);
+  border-radius: 4px;
+  color: var(--dark-gray-2);
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.listing-wrapper .order-by select {
+  border: none;
+  width: 180px;
+  color: var(--dark-gray-2);
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  outline: none;
+  font-style: "inter";
+  background-color: transparent;
+}
+
+.listing-principal {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--white);
+  height: 720px;
+  width: 308px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.filter-wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+}
+
+.filter-wrapper ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-wrapper ul li h1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.filter-wrapper ul li input[type="checkbox"] {
+  accent-color: var(--primary);
+  height: 22px;
+  width: 22px;
+}
+
+.filter-wrapper ul li input[type="radio"] {
+  accent-color: var(--primary);
+  height: 22px;
+  width: 22px;
+}
+
+.list-items{
+    width: 930px;
+}

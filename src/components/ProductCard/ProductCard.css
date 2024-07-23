@@ -35,6 +35,11 @@
   letter-spacing: 0.75px;
   color: var(--dark-gray-2);
   z-index: 2;
+  visibility: hidden;
+}
+
+.img-background span.show{
+  visibility: visible;
 }
 
 .img-background img {

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../ProductListing/ProductListining.css'
-import { Cards } from '../../interfaces/cards'
 import ProductCard from '../ProductCard/ProductCard'
+import { Cards } from '../../interfaces/Cards'
 
 interface Props{
   cards:Cards[]

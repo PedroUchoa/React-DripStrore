@@ -1,6 +1,6 @@
 import React from 'react'
 import '../ProductCard/ProductCard.css'
-import { Cards } from '../../interfaces/cards';
+import { Cards } from '../../interfaces/Cards';
 
 interface Props {
   cards: Cards;
@@ -10,7 +10,7 @@ function ProductCard({ cards }: Props) {
   return (
     <div className="item">
       <div className="img-background">
-        <span>{cards.descontValue}% off</span>
+        <span className={cards.descont?"show":''}>{cards.descontValue}% off</span>
         <img src="/src/assets/imgs/Item-image.png" alt="" />
       </div>
       <p>{cards.type}</p>

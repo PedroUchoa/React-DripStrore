@@ -114,6 +114,11 @@ div.swiper-pagination {
   justify-content: center;
   border-radius: 150px;
   background-color: var(--white);
+  cursor: pointer;
+}
+
+.itens-wrapper ul li div:hover svg path{
+  fill: var(--primary);
 }
 
 .itens-wrapper ul li p {
