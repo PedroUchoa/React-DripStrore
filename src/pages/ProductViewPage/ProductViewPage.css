@@ -1,0 +1,368 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 100px;
+  font-family: "inter";
+  background-color: #f9f8fe;
+}
+
+.infos-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flexs;
+  gap: 8px;
+  font-family: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: var(--dark-gray-2);
+}
+
+.infos-wrapper p:first-of-type {
+  font-weight: 700;
+}
+
+.principal-infos {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.swiper {
+  height: 570px;
+  width: 700px;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: var(--dark-gray-2);
+}
+
+.swiper-item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-item img {
+  width: 498px;
+  height: 248px;
+}
+
+.list-swipper {
+  width: 700px;
+  height: 120px;
+  gap: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.list-swipper {
+  width: 700px;
+  margin-top: 20px;
+}
+
+.list-swipper .swiper-slide {
+  height: 96px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.list-swipper .swiper-slide-thumb-active {
+  border: 2px solid var(--primary);
+}
+
+.img-slider img {
+  width: 83px;
+  height: 41px;
+}
+
+.info-tenis {
+  width: 450px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.info-tenis h1 {
+  width: 440px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: var(--dark-gray);
+}
+
+.info-tenis span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: var(--dark-gray-3);
+  margin-top: 10px;
+}
+
+.rank-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.rank-wrapper .star-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.rank-wrapper .rank {
+  width: 63px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--warning);
+  border-radius: 4px;
+  gap: 10px;
+  padding: 6px, 10px, 6px, 10px;
+  margin-left: 3px;
+}
+
+.rank-wrapper .rank p {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: var(--white);
+}
+
+.rank-wrapper p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: var(--light-gray);
+}
+
+.value {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.value span:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  counter-reset: var(--dark-gray-2);
+}
+
+.value span:first-of-type p {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+}
+
+.value span:last-of-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: var(--light-gray-2);
+  text-decoration: line-through;
+}
+
+.description-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.description-wrapper h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--light-gray);
+}
+
+.description-wrapper p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: var(--dark-gray-2);
+}
+
+.size-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.size-wrapper h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--light-gray);
+}
+
+.size-wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.size-wrapper ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray-2);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2);
+  cursor: pointer;
+}
+
+.size-wrapper ul li:hover, .size-wrapper ul li.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.color-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-wrapper h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: var(--light-gray);
+}
+
+.color-wrapper ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.color-wrapper ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  border: 2px solid none;
+}
+
+.color-wrapper ul li:hover,
+.color-wrapper ul li.active {
+  border: 2px solid #ff6969;
+}
+
+.color-wrapper ul li div {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info-tenis button{
+   width: 220px;
+   height: 48px;
+   margin-top: 27px;
+   background-color: #FFB31F;
+   border-radius: 10px;
+   border: none;
+   font-family: 'inter';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.75px;
+   color: var(--light-gray-3);
+   cursor: pointer;
+}
+
+.related-products{
+  margin-bottom: 100px;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 80px 0 20px 0;
+}
+
+.all h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0, 75px;
+  color: var(--dark-gray-2);
+}
+
+.all span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.all span a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  color: var(--primary);
+  text-decoration: none;
+}

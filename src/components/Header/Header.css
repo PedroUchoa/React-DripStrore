@@ -81,8 +81,8 @@ header{
 }
 
 .list-wrapper{
-    height: 29px;
-    width: 423px;
+    height: 27px;
+    width: 453px;
     display: flex;
     align-items: center;
     justify-items: flex-start;
@@ -90,4 +90,14 @@ header{
     padding: 0;
     gap: 32px;
     margin-top: 30px;
+}
+
+.list-wrapper li{
+    border-bottom: 2px solid transparent;
+}
+
+.list-wrapper li:hover{
+    cursor: pointer;
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
 }
