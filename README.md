@@ -1,30 +1,73 @@
-# React + TypeScript + Vite
+<h1 align="center"> Drip Store </h1>
+Drip Store é uma aplicação front-end feita com Typescript e a biblioteca React para a formação Full stack Geração Tech. Este projeto é uma landpage que simula uma loja de roupas virtual componsta por uma Página Inicial, Página de listagem de produtos e Página de Visualização do Produto.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
+- Typescript
+- Vite
+- React
+- React Router
+- Swiper
 
-Currently, two official plugins are available:
+## 🚀 Começando
+Siga os passos abaixo para configurar o projeto localmente:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone o repositório:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+ ```bash
+ git clone https://github.com/PedroUchoa/React-DripStrore
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navegue até o diretório do projeto:
+
+ ```bash
+ cd dripStore
+```
+
+3. Instale as dependências:
+
+ ```bash
+ npm install
+```
+
+### Uso
+Para iniciar o projeto em modo de desenvolvimento, execute:
+
+ ```bash
+ npm run dev
+```
+
+Abra http://localhost:5173 para visualizar no navegador. A aplicação recarregará automaticamente se você fizer alterações no código.
+
+## Estrutura do Projeto
+Uma breve descrição da estrutura do projeto e o que cada diretório ou arquivo importante contém.
+```text
+DripStore/
+├── node_modules/
+├── public/
+├── src/
+│   ├── Assets/ (Contem as imagens e icones do Projeto)
+│   ├── components/ (Contem os components do Projeto)
+│   ├── Interfaces/ (Contem as interfaces Typescript utilizadas)
+│   ├── Pages(Contem as três páginas do projeto)
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+```
+
+## Explicação dos components
+- Buy Box: É o componente de card que se encontrna seção de itens em destaque na página principal.
+- Footer: É o componente de Rodapé do site, reutilizado em todas as páginas.
+- Header: É o componente de cabeçalho do site, é um menu que é reutilizado em todas as páginas.
+- Product Card: É o componente de card dos produtos, utilizados para listagem e redirecionamento para a página de produtos.
+- Product Listing: É um componente de wrapper feito para englobar e listar os cards de produtos.
+- Slide Item: É o slide da página inicial feito com o swiper.
+
+## Contato
+
+João Pedro Uchôa - joaopedrouchoacamposolimpio@gmail.com
+
+
