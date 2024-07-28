@@ -50,6 +50,7 @@ function Home() {
 
   const itensCards: Cards[] = [
     {
+      id: 1,
       image: "",
       descont: true,
       descontValue: 30,
@@ -59,6 +60,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 2,
       image: "",
       descont: true,
       descontValue: 30,
@@ -68,6 +70,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 3,
       image: "",
       descont: true,
       descontValue: 30,
@@ -77,6 +80,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 4,
       image: "",
       descont: true,
       descontValue: 30,
@@ -86,6 +90,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 5,
       image: "",
       descont: true,
       descontValue: 30,
@@ -95,6 +100,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 6,
       image: "",
       descont: true,
       descontValue: 30,
@@ -104,6 +110,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 7,
       image: "",
       descont: true,
       descontValue: 30,
@@ -113,6 +120,7 @@ function Home() {
       newValue: 100,
     },
     {
+      id: 8,
       image: "",
       descont: true,
       descontValue: 30,

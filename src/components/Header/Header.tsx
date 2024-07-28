@@ -3,6 +3,7 @@ import "../Header/Header.css";
 import logo from "../../assets/imgs/logo-header.svg";
 import lupa from "../../assets/icons/lupa.svg";
 import cart from "../../assets/icons/mini-cart.svg";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,12 +20,40 @@ function Header() {
         </div>
         <img className="cart" src={cart} alt="" />
       </div>
-        <ul className="list-wrapper">
-          <li>Home</li>
-          <li>Produtos</li>
-          <li>Categorias</li>
-          <li>Meus Pedidos</li>
-        </ul>
+      <ul className="list-wrapper">
+        <li>
+          <NavLink
+            to="/home"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/productlist"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Produtos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to=""
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Categorias
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to=""
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Meus Pedidos
+          </NavLink>
+        </li>
+      </ul>
     </header>
   );
 }

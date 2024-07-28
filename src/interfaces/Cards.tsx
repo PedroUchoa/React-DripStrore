@@ -1,4 +1,5 @@
 export interface Cards{
+     id:number,
      image:string,
      descont:boolean,
      descontValue: number,

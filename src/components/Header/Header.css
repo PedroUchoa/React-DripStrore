@@ -96,7 +96,11 @@ header{
     border-bottom: 2px solid transparent;
 }
 
-.list-wrapper li:hover{
+.list-wrapper li a{
+    text-decoration: none;
+}
+
+.list-wrapper li a:hover, .list-wrapper li a.active{ 
     cursor: pointer;
     color: var(--primary);
     border-bottom: 2px solid var(--primary);

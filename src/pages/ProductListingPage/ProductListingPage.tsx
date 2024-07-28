@@ -7,6 +7,7 @@ import ProductListing from "../../components/ProductListing/ProductListing";
 function ProductListingPage() {
   const itensCards: Cards[] = [
     {
+      id: 1,
       image: "",
       descont: true,
       descontValue: 30,
@@ -16,6 +17,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 2,
       image: "",
       descont: true,
       descontValue: 30,
@@ -25,6 +27,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 3,
       image: "",
       descont: false,
       descontValue: 30,
@@ -34,6 +37,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 4,
       image: "",
       descont: false,
       descontValue: 30,
@@ -43,6 +47,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 5,
       image: "",
       descont: false,
       descontValue: 30,
@@ -52,6 +57,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 6,
       image: "",
       descont: false,
       descontValue: 30,
@@ -61,6 +67,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 7,
       image: "",
       descont: false,
       descontValue: 30,
@@ -70,6 +77,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 8,
       image: "",
       descont: false,
       descontValue: 30,
@@ -79,6 +87,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 9,
       image: "",
       descont: false,
       descontValue: 30,
@@ -88,6 +97,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 10,
       image: "",
       descont: false,
       descontValue: 30,
@@ -97,6 +107,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 11,
       image: "",
       descont: false,
       descontValue: 30,
@@ -106,6 +117,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 12,
       image: "",
       descont: false,
       descontValue: 30,
@@ -116,6 +128,7 @@ function ProductListingPage() {
     },
 
     {
+      id: 13,
       image: "",
       descont: false,
       descontValue: 30,
@@ -125,6 +138,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 14,
       image: "",
       descont: false,
       descontValue: 30,
@@ -134,6 +148,7 @@ function ProductListingPage() {
       newValue: 100,
     },
     {
+      id: 15,
       image: "",
       descont: false,
       descontValue: 30,
