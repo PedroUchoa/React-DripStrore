@@ -7,6 +7,11 @@ import BuyBox from "../../components/BuyBox/BuyBox";
 import ProductListing from "../../components/ProductListing/ProductListing";
 import arrow from "../../assets/icons/arrow-right.svg";
 import yellowShoe from "../../assets/imgs/nike-yellow.png";
+import collectionOne from "../../assets/imgs/collection-1.png";
+
+import collectionTwo from "../../assets/imgs/collection-2.png";
+
+import collectionThree from "../../assets/imgs/collection-3.png";
 
 import { Cards } from "../../interfaces/Cards";
 
@@ -32,13 +37,13 @@ function Home() {
 
   const imageLinks = [
     {
-      image: "/src/assets/imgs/collection-1.png",
+      image: collectionOne,
     },
     {
-      image: "/src/assets/imgs/collection-2.png",
+      image: collectionTwo,
     },
     {
-      image: "/src/assets/imgs/collection-3.png",
+      image: collectionThree,
     },
   ];
 

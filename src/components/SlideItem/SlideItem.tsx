@@ -1,5 +1,3 @@
-
-
 import './SlideItem.css'
 import carouselImg from "../../assets/imgs/carousel-img.png";
 
