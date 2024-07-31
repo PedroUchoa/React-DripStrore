@@ -1,4 +1,3 @@
-import React from 'react'
 import '../ProductListing/ProductListining.css'
 import ProductCard from '../ProductCard/ProductCard'
 import { Cards } from '../../interfaces/Cards'
