@@ -70,7 +70,7 @@ DripStore/
 
 ## Proximos passos
 - Deixar a página totalmente responsiva
-- Craição de uma Api para substituir os valores mockados por valores dinamicos 
+- Criação de uma Api para substituir os valores mockados por valores dinamicos 
 
 ## Contato
 
