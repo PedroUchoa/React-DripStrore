@@ -1,20 +1,14 @@
-import React from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-
 
 import "./Home.css";
 import SlideItem from "../../components/SlideItem/SlideItem";
 import BuyBox from "../../components/BuyBox/BuyBox";
 import ProductListing from "../../components/ProductListing/ProductListing";
 import arrow from "../../assets/icons/arrow-right.svg";
-import yellowShoe from "../../assets/imgs/nike-yellow.png"
+import yellowShoe from "../../assets/imgs/nike-yellow.png";
 
 import { Cards } from "../../interfaces/Cards";
-
-
-
 
 function Home() {
   const slideItems = [

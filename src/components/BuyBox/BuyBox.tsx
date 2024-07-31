@@ -1,4 +1,3 @@
-import React from "react";
 import "./BuyBox.css";
 
 interface Props {

@@ -1,4 +1,3 @@
-import React from "react";
 import "../Header/Header.css";
 import logo from "../../assets/imgs/logo-header.svg";
 import lupa from "../../assets/icons/lupa.svg";

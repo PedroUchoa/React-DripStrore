@@ -7,7 +7,7 @@ import stars from "../../assets/icons/star-icon.svg";
 import { useState } from "react";
 import ProductListing from "../../components/ProductListing/ProductListing";
 import { Cards } from "../../interfaces/Cards";
-import arrow from "../../assets/icons/arrow-right.svg"
+import arrow from "../../assets/icons/arrow-right.svg";
 
 function ProductViewPage() {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass>();
@@ -32,44 +32,48 @@ function ProductViewPage() {
     },
   ];
 
-   const itensCards: Cards[] = [
-     {
-       image: "",
-       descont: true,
-       descontValue: 30,
-       name: "K-Swiss V8 - Masculino",
-       type: "Tênis",
-       oldValue: 200,
-       newValue: 100,
-     },
-     {
-       image: "",
-       descont: true,
-       descontValue: 30,
-       name: "K-Swiss V8 - Masculino",
-       type: "Tênis",
-       oldValue: 200,
-       newValue: 100,
-     },
-     {
-       image: "",
-       descont: false,
-       descontValue: 30,
-       name: "K-Swiss V8 - Masculino",
-       type: "Tênis",
-       oldValue: 200,
-       newValue: 100,
-     },
-     {
-       image: "",
-       descont: false,
-       descontValue: 30,
-       name: "K-Swiss V8 - Masculino",
-       type: "Tênis",
-       oldValue: 200,
-       newValue: 100,
-     },
-   ];
+  const itensCards: Cards[] = [
+    {
+      id: 1,
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      id: 2,
+      image: "",
+      descont: true,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      id: 3,
+      image: "",
+      descont: false,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+    {
+      id: 4,
+      image: "",
+      descont: false,
+      descontValue: 30,
+      name: "K-Swiss V8 - Masculino",
+      type: "Tênis",
+      oldValue: 200,
+      newValue: 100,
+    },
+  ];
 
   const selectColor = (event: any) => {
     setCorSelecionada(event.target.id);
@@ -139,7 +143,7 @@ function ProductViewPage() {
           <span>Casual | Nike | REF:38416711</span>
           <div className="rank-wrapper">
             <div className="star-wrapper">
-              {[...Array(totalStars)].map((item, index) => (
+              {[...Array(totalStars)].map((_item, index) => (
                 <svg
                   width="14.5"
                   height="14"
@@ -156,7 +160,7 @@ function ProductViewPage() {
                   />
                 </svg>
               ))}
-              {[...Array(5 - totalStars)].map((item, index) => (
+              {[...Array(5 - totalStars)].map((_item, index) => (
                 <svg
                   width="14.5"
                   height="14"
