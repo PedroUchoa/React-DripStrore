@@ -38,6 +38,8 @@ Para iniciar o projeto em modo de desenvolvimento, execute:
 
 Abra http://localhost:5173 para visualizar no navegador. A aplicação recarregará automaticamente se você fizer alterações no código.
 
+Você também pode ver o site online no link: https://react-drip-strore-five.vercel.app/home
+
 ## Estrutura do Projeto
 Uma breve descrição da estrutura do projeto e o que cada diretório ou arquivo importante contém.
 ```text
@@ -65,6 +67,10 @@ DripStore/
 - Product Card: É o componente de card dos produtos, utilizados para listagem e redirecionamento para a página de produtos.
 - Product Listing: É um componente de wrapper feito para englobar e listar os cards de produtos.
 - Slide Item: É o slide da página inicial feito com o swiper.
+
+## Proximos passos
+- Deixar a página totalmente responsiva
+- Craição de uma Api para substituir os valores mockados por valores dinamicos 
 
 ## Contato
 
