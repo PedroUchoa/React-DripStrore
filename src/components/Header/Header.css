@@ -98,6 +98,7 @@ header{
 
 .list-wrapper li a{
     text-decoration: none;
+    color: var(--dark-gray-2);
 }
 
 .list-wrapper li a:hover, .list-wrapper li a.active{ 
